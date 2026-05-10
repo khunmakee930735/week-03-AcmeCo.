@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acme Co.</title>
+</head>
+<body>
+
+    <h1>Acme Co.</h1>
+
+    <a href="Home.html">Home</a> |
+    <a href="Products.html">Products</a> |
+    <a href="About.html">About</a> |
+    <a href="Contact.html">Contact</a> |
+
+    <hr>
+
+    <h2>Comtact Us</h2>
+
+    <p>We'd love to hear from you. Send us a message below.</p>
+
+    <h2>Contact Information</h2>
+
+    <p><b>Address:</b> 123 workshop Lane, Phnom Penh, Cambodia. <br>
+        <b>Phone:</b> +855 23 000 000 <br>
+        <b>Email:</b> hello@acme.example <br>
+        <b>Hours:</b> Mon-Fri, 9:00 AM - 6:00PM</p>
+
+    <h2>Send a Message</h2>
+
+    <p>Full Name:</p>
+    <input type="text" name="name" />
+
+    <p>Email Address</p>
+    <input type="email" name="email" />
+
+    <p>Phone Number:</p>
+    <input type="text" name="phone number" />
+    
+    <br><br>
+
+    <label for="subject-type">Subject:</label><br>
+    <select id="subject-type" name="subject-type">
+        <option value="">None</option>
+        <option value="general">WCT</option>
+        <option value="support">DB</option>
+        <option value="billing">APL</option>
+        <option value="feedback">DSA</option>
+        <option value="other">Other</option>
+    </select>
+
+    <br><br>
+
+    <p>Message:</p>
+    <textarea id="msg" row="5" cols="40"></textarea>
+        <br><br>
+    <input type="button" value="Send Message" onclick="sendMessage()">
+    <input type="button" value="Clear Form" onclick="clearForm()">
+
+    <p>&copy; 2026 Acme Co. All right reserved.</p>
+    
+</body>
+</html>
